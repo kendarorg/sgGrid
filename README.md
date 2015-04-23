@@ -171,6 +171,7 @@ The paginaton buttons contains the fields
 * go(): Function to call to navigate to the specific page
 
 <pre>
+
 <div sg-grid
 	ng-model="data"
 	sg-page-size="pageSize" 
@@ -199,6 +200,7 @@ The paginaton buttons contains the fields
 		</tr>
 	</table>
 </div>
+
 </pre>
 
 ### History
