@@ -1,8 +1,10 @@
 var myApp = angular.module('myApp',['sgGrid']);
 
+
+
 myApp.controller('myController',['$scope','$q',function($scope,$q){
 	$scope.fakeData = [];
-	
+		
 	for(var i=0;i<111;i++){
 		var lastName = Math.floor(i/20);
 		$scope.fakeData.push({
@@ -58,6 +60,7 @@ myApp.controller('myController',['$scope','$q',function($scope,$q){
 	$scope.show = function(customer){
 		alert('Clicked Customer '+customer.id)
 	}
+	$scope.loadData();
 }]);
 
 
@@ -115,4 +118,5 @@ myApp.controller('myControllerProgressive',['$scope','$q',function($scope,$q){
 	$scope.show = function(customer){
 		alert('Clicked Customer '+customer.id)
 	}
+	$scope.loadData();
 }]);

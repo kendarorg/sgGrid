@@ -203,6 +203,10 @@ The paginaton buttons contains the fields
 
 ### History
 
+* v 1.0.1, First Release
+	* Hide pagination when only one page exists
+	* Fixed inconsistency on "half page" calculation
+	
 * v 1.0.0, First Release
 	* Pagination with or without count
 	* Change on pageSize change
